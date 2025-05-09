@@ -1,0 +1,60 @@
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Container and card */
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Header styling */
+.card-header h1 {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+/* Form and inputs */
+form label {
+    color: #ffffff;
+}
+
+form select,
+form input[type="text"] {
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+form .btn-primary {
+    background-color: #00bcd4;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form .btn-primary:hover {
+    background-color: #0097a7;
+}
+
+/* Prediction text */
+#prediction {
+    color: #00e676;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
